@@ -8,4 +8,4 @@ Additionally, download the required checkpoint file by running:
 
 `python download_checkpoints.py`
 
-Then run `main.py.`
+Then run `main.py <input_image_path> [<output_folder>].`
