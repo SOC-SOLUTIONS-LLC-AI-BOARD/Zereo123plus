@@ -5,8 +5,8 @@ import huggingface_hub
 from diffusers import DiffusionPipeline
 
 
-if 'HF_TOKEN' in os.environ:
-    huggingface_hub.login(os.environ['HF_TOKEN'])
+# if 'HF_TOKEN' in os.environ:
+#     huggingface_hub.login(os.environ['HF_TOKEN'])
 sam_checkpoint = "tmp/sam_vit_h_4b8939.pth"
 os.makedirs('tmp', exist_ok=True)
 urllib.request.urlretrieve(
