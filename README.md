@@ -6,6 +6,6 @@ Before running the code, make sure to install the required dependencies by runni
 
 Additionally, download the required checkpoint file by running:
 
-`python download_checkpoint.py`
+`python download_checkpoints.py`
 
 Then run `main.py.`
