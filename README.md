@@ -1,4 +1,4 @@
-# Zero123++: A Single Image to Consistent Multi-view Images
+# A Single Image to Consistent Multi-view Images
 
 The code transform a single image into consistent multi-view images. SAM is employed for precise object segmentation and background removal, while Zero123++ leverages diffusion-based techniques for generating diverse views.
 ## SAM (Segment Anything)
