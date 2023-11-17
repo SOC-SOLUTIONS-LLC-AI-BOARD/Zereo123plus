@@ -1,15 +1,13 @@
 #python==3.10.12
-torch
-torchvision
-numpy
-rembg
-opencv-contrib-python
+torch==2.1.0
+torchvision==0.16.0
+numpy==1.23.5
+rembg==2.0.52
+opencv-contrib-python==4.8.0.76
 diffusers==0.20.2
 transformers==4.29.2
-# streamlit==1.22.0
-altair<5
-huggingface_hub
+altair==4.2.2
+huggingface_hub==0.19.4
 git+https://github.com/facebookresearch/segment-anything.git
-# gradio==3.50.2
-fire
-accelerate
+fire==0.5.0
+accelerate==0.24.1
