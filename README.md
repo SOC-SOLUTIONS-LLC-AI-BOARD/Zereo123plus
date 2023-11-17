@@ -46,7 +46,9 @@ Additionally, download the required checkpoint for SAM file by running:
 Then run 
 `main.py <input_image_path> [<output_folder>].`
 
-<input_image_path>: Replace this placeholder with the path to the input image that you want to process. This is the image for which you want to generate consistent multi-view images.
+Parameters/Arguments:
 
-[<output_folder>]: This part is optional. If specified, it represents the folder where the generated multi-view images will be saved. If not provided, it will create a folder named 'output'.
+* <input_image_path>: Replace this placeholder with the path to the input image that you want to process. This is the image for which you want to generate consistent multi-view images.
+
+* [<output_folder>]: This part is optional. If specified, it represents the folder where the generated multi-view images will be saved. If not provided, it will create a folder named 'output'.
 
