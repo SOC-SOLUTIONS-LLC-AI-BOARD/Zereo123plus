@@ -32,9 +32,9 @@ result.show()
 result.save("output.png")
 </pre>
 
-#Usage
+# Usage
 
-##Dependencies:
+## Dependencies:
 Before running the code, make sure to install the required dependencies by running:
 
 `pip install -r requirements.txt`
