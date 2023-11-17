@@ -39,9 +39,15 @@ Before running the code, make sure to install the required dependencies by runni
 
 `pip install -r requirements.txt`
 
-Additionally, download the required checkpoint for SAM file by running:
+The requirements.txt file specifies the Python packages and their versions required to run the code. Follwoing are the main libraries used:
+* rembg: rembg library for background removal in images using the alpha matting technique.
+* segment-anything: A Git repository containing the code for the segment-anything library, likely used for segmentation tasks.
+* transformers: Hugging Face's Transformers library, which provides pre-trained models and utilities for natural language processing.
 
+
+Additionally, download the required checkpoint for SAM file by running:
 `python download_checkpoints.py`
+This downloads the checkpoints in the tmp folder that are used by segment-anything.
 
 Then run 
 `main.py <input_image_path> [<output_folder>].`
